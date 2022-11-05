@@ -5,7 +5,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BioInspired Perception and Robotics
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 description: A Jekyll theme for documentation
 
 permalink: pretty
