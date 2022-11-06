@@ -9,7 +9,9 @@ permalink: /
 # BIPR aka BioInspired Perception and Robotics
 
 ---
+
 {: .warning } 
 > This website is under active construction. 
 
-{: .note } This website is under active construction. 
+{: .note } 
+This website is under active construction. 
