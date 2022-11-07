@@ -5,6 +5,7 @@ parent: Research and Notes
 ---
 
 
+
 # Bio-inspired Tensegrity Soft Modular Robots
 {: .no-toc}
 
