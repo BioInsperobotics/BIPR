@@ -13,7 +13,10 @@ permalink: pretty
 exclude:
 
  # specific to the theme website:
-
+   - _site/
+   - .jekyll-cache/
+   - Gemfile
+   - Gemfile.lock
    - LICENSE.txt
    - README.md
 
