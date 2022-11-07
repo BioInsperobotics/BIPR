@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research Papers
+title: Research and Notes
 has_children: true
 nav_order: 2
 permalink: /00-Research_Paper_Notes

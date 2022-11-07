@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paper-1
-parent: Research Papers
+parent: Research and Notes
 ---
 
 
