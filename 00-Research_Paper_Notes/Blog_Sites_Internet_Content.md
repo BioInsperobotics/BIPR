@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Content over Internet
-parent: Research Papers
+parent: Research and Notes
 ---
 
 # Content Over Internet!
