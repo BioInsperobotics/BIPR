@@ -52,3 +52,12 @@ You need to use RubyGem in order to run this jekyll theme
     ```
 
 4. Your server address in the terminal output would specify the server address.
+
+{: .note}
+I highly recommend to follow [pdmosses-just-the-docs tutorial](https://pdmosses.github.io/just-the-docs/)
+
+### Possible Errors you might encounter
+_Atleast I did_ ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯
+
+- [Load Error: cannot load such file - webrick](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417)
+- [Problem with rendering callouts](https://github.com/just-the-docs/just-the-docs/discussions/1030#discussioncomment-4066968)
