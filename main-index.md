@@ -10,8 +10,12 @@ permalink: /
 
 ---
 
+![expanded logo](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/logo_BIPR.png?raw=true)
+
+The following documentation site has been built for our major project in order to keep track of everything that we do and implement, and at the same time to update our project guide.
+
+
 {: .warning } 
 > This website is under active construction. 
 
-{: .note } 
-This website is under active construction. 
+
