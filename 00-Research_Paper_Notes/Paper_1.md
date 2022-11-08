@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Paper-1
+nav_order: 3
 parent: Research and Notes
 ---
 

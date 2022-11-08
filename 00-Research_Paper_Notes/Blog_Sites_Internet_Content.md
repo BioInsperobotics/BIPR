@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Content over Internet
+nav_order: 1
 parent: Research and Notes
 ---
 
@@ -15,6 +16,7 @@ Mind scraping over the internet for information.
 1. TOC
 {:toc}
 
+---
 # Biomimicry is Real World Inspiration
 
 ### Metadata
