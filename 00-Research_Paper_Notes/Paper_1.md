@@ -8,7 +8,7 @@ parent: Research and Notes
 
 
 # Bio-inspired Tensegrity Soft Modular Robots
-{: .no-toc}
+{: .no_toc}
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -18,8 +18,8 @@ parent: Research and Notes
 
 ## Metadata
 
-- Title: Bio-inspired Tensegrity Soft Modular Robots
-- URL: [https://arxiv.org/ftp/arxiv/papers/1703/1703.10139.pdf](https://arxiv.org/ftp/arxiv/papers/1703/1703.10139.pdf)
+- **Title:** Bio-inspired Tensegrity Soft Modular Robots
+- **URL:** [https://arxiv.org/ftp/arxiv/papers/1703/1703.10139.pdf](https://arxiv.org/ftp/arxiv/papers/1703/1703.10139.pdf)
 - D. Zappetti, S. Mintchev, J. Shintake, and D. Floreano | Laboratory of Intelligent Systems at Ecole Polytechnique Fédérale de Lausanne (EPFL),  H1015 Lausanne, Switzerland | davide.zappetti@epfl.ch
 
 ## Highlights & Notes
