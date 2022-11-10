@@ -5,7 +5,7 @@ nav_order: 2
 parent: Algorithms
 ---
 
-# Bug 2
+# Distance Transform
 
 <!-- [Code](){: .btn} -->
 
