@@ -84,3 +84,26 @@ Mind scraping over the internet for information.
 	- Full autonomous - Potentially, future will look at cognition capability 
 - JPL's RoboSimian robot 
 ![Robosimian JPL](https://s.yimg.com/uu/api/res/1.2/pl8AiDTkcCGweCjtKwSR6A--~B/Zmk9ZmlsbDtoPTM5Nzt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/8e95a963cd8123933da6b7d1b5d75674/202083064/robosimian.gif.cf.webp)
+
+---
+
+# An Origami Inspired Robot That Can Fold Itself Like a Paper
+
+## Metadata
+
+- Title: An Origami Inspired Robot That Can Fold Itself Like a Paper
+- URL: [technocrazed article](https://www.technocrazed.com/an-origami-inspired-robot-that-can-fold-itself-like-a-paper)
+
+## Highlights & Notes
+
+- design of an origami inspired robot which can change the size of its wheel according to the obstacle and load
+- The wheel design is based upon the traditional paper folding technique named as ‘Magic Ball Pattern’.
+-  The origami inspired robot consists of two wheel which can change their shape, as well as, climb up the stairs. The wheel can change its radius based on the size of objects it is going to climb over. It can squeeze or increase its radius accordingly.
+
+![seoul robot](http://www.technocrazed.com/wp-content/uploads/2014/06/Seouls-robot.gif)
+
+- The robotic wheel has been created by the Professor Kyu-Jin Cho who told how the wheel is able to squeeze or expand its radius. He told that the wheel can squeeze and expand to the radius of 2 and 4 inches respectively. Each wheel is equipped with only one actuator only and the sensors outside the wheel calculate where the obstacle actually is.
+
+![shape changing](http://www.technocrazed.com/wp-content/uploads/2014/06/compress-the-robot-to-change-its-shape.gif)
+
+- The issue with the contemporary robots is that the robot is either speedy or powerful but not both. This new robot comes with both these characteristics. It can decide how much it needs to squeeze or expand to have required speed and torque.
