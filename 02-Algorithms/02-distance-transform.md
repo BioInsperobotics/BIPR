@@ -9,8 +9,8 @@ parent: Algorithms
 
 <!-- [Code](){: .btn} -->
 
-```m
-% loading the house 
+```matlab
+% loading the house  
 load house;
 
 % to use the distance transform for robot navigation we create a DXform
