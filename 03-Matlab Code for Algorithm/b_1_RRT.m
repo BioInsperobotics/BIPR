@@ -50,34 +50,18 @@ planner.GoalReachedFcn = @checkIfGoal;
 
 show(occGrid)
 hold on
-hold on
-size_tree = size(solnInfo.TreeData)
-% should be the same as starting point
-% x_new = -1;
-% y_new = 0;
 
-for x = 1:size_tree(1)
-    % Plot the entire search tree
-    plot(solnInfo.TreeData(x,1), solnInfo.TreeData(x,2),'.');
-    % x_val = solnInfo.TreeData(x);
-    % y_1_val = solnInfo.TreeData(x,1);
-    % y_2_val = solnInfo.TreeData(x,2);
-    %
-    % disp("x_new = "+ x_new+" | y_new = "+y_new)
-    % if ~isnan(x_val) && ~isnan(y_1_val) && ~isnan(y_2_val)
-    %
-    % plot([x_new,x_val],[y_new,y_2_val],'k-')
-    % x_new = x_val;
-    % y_new = y_1_val;
+size_tree = size(solnInfo.TreeData)
+
+
+p1 = plot(solnInfo.TreeData(:,1), solnInfo.TreeData(:,2),'g-')
+for endPoint = 1:3:size_tree(1)
+    p1.XData = solnInfo.TreeData(1:endPoint,1);
+    p1.YData = solnInfo.TreeData(1:endPoint,2);
     drawnow
-    % end
-    % disp("x_val = "+ solnInfo.TreeData(x))
-    % disp("y_1_val = "+ solnInfo.TreeData(x,1))
-    % disp("y_2_val = "+ solnInfo.TreeData(x,2))
-    % disp(" ")
-% pause(0.5)
+    pause(1)
 end
-plot(solnInfo.TreeData(:,1), solnInfo.TreeData(:,2),'g-')
+
 % Interpolate and plot the path
 interpolate(pthObj,300);
 plot(pthObj.States(:,1),pthObj.States(:,2),'r-','LineWidth',2)
