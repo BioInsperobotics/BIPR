@@ -15,6 +15,8 @@ hold on
 plot(start(1),start(2),'ro')
 plot(goal(1),goal(2),'mo')
 grid on;
+hold on
+
 % show start and goal headings
 r = 0.5;
 % BELOW: plots a straight line between (1,0) and (1,0.5)
@@ -48,27 +50,31 @@ planner.GoalReachedFcn = @checkIfGoal;
 
 %% Plot the path
 
+
 show(occGrid)
 hold on
 
 size_tree = size(solnInfo.TreeData)
 
+% show start and end goal in grid map
+
+plot(start(1),start(2),'ro')
+plot(goal(1),goal(2),'mo')
 
 p1 = plot(solnInfo.TreeData(:,1), solnInfo.TreeData(:,2),'g-')
+hold on
 for endPoint = 1:3:size_tree(1)
     p1.XData = solnInfo.TreeData(1:endPoint,1);
     p1.YData = solnInfo.TreeData(1:endPoint,2);
     drawnow
-    pause(1)
+    pause(0.06)
 end
 
 % Interpolate and plot the path
 interpolate(pthObj,300);
 plot(pthObj.States(:,1),pthObj.States(:,2),'r-','LineWidth',2)
-% show start and end goal in grid map
-plot(start(1),start(2),'ro')
-plot(goal(1),goal(2),'mo')
-hold off
+
+% hold off
 
 %% Defining a goalReached function
 

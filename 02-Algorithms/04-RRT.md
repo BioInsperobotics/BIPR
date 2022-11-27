@@ -26,6 +26,8 @@ hold on
 plot(start(1),start(2),'ro')
 plot(goal(1),goal(2),'mo')
 grid on;
+hold on
+
 % show start and goal headings
 r = 0.5;
 % BELOW: plots a straight line between (1,0) and (1,0.5)
@@ -37,18 +39,15 @@ plot([goal(1),goal(1) + r*cos(goal(3))],[goal(2),goal(2) + r*sin(goal(3))],'m-')
 % to specify the statespace of the vehicle and specifying the state bounds.
 % The object limits the sampled states to feasible dubins curves for
 % steering a vehicle within the state bounds.
-
 bounds = [occGrid.XWorldLimits; occGrid.YWorldLimits; [-pi pi]];
 ss = stateSpaceDubins(bounds);
 ss.MinTurningRadius = 0.4;
 
 %% Planning the Path
-
 % RRT samples random states within the state space and attempts to connect
 % the path. These states and connections need to be validated or excluded
 % based on map constraints such that the vehicl doesn't collide with the
 % obstacles.
-
 statevalidator = validatorOccupancyMap(ss);
 statevalidator.Map = occGrid;
 statevalidator.ValidationDistance = 0.05;
@@ -62,29 +61,31 @@ planner.GoalReachedFcn = @checkIfGoal;
 
 %% Plot the path
 
+
 show(occGrid)
 hold on
-hold on
+
 size_tree = size(solnInfo.TreeData)
 
-for x = 1:size_tree(1)
-    % Plot the entire search tree
-    plot(solnInfo.TreeData(x,1), solnInfo.TreeData(x,2),'.');
+% show start and end goal in grid map
 
+plot(start(1),start(2),'ro')
+plot(goal(1),goal(2),'mo')
+
+p1 = plot(solnInfo.TreeData(:,1), solnInfo.TreeData(:,2),'g-')
+hold on
+for endPoint = 1:3:size_tree(1)
+    p1.XData = solnInfo.TreeData(1:endPoint,1);
+    p1.YData = solnInfo.TreeData(1:endPoint,2);
     drawnow
-
-% pause(0.5)
+    pause(0.1)
 end
-plot(solnInfo.TreeData(:,1), solnInfo.TreeData(:,2),'g-')
 
 % Interpolate and plot the path
 interpolate(pthObj,300);
 plot(pthObj.States(:,1),pthObj.States(:,2),'r-','LineWidth',2)
 
-% show start and end goal in grid map
-plot(start(1),start(2),'ro')
-plot(goal(1),goal(2),'mo')
-hold off
+% hold off
 
 %% Defining a goalReached function
 
@@ -98,4 +99,4 @@ end
 
 ```
 
-![RRT animation gif](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/03-RRT_animation_doubt.gif)
+![RRT animation gif](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/03-RRT_animation.gif)
