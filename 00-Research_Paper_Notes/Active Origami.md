@@ -27,8 +27,7 @@ parent: Research and Notes
 | :---: | :---: |
 | **Magic Ball Pattern** | ![Magic ball pattern by Klein Alaine](https://archigami.files.wordpress.com/2014/07/origami_magic_balls_by_kleinalaine.jpg?w=510&h=339) |  
 | **Yoshimura Fold Pattern** | ![Yoshimura fold pattern](https://i.pinimg.com/originals/c4/87/d7/c487d72f54868a280def9d140cf9bb1f.jpg) |
-| | |
-| | |
+
 
 
 ## Software Mentions
