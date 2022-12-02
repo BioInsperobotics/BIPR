@@ -3,7 +3,7 @@
 3. Perception
 4. Robotics
 5. Reconfigurable Modular Robots
-6. 
+6. deployable space structure
 
 ## Something to look out for
 
