@@ -3,6 +3,7 @@ layout: default
 title: Active Origami Book
 nav_order: 5
 parent: Research and Notes
+last_modified_date: 2022-12-4 23:49 IST 
 ---
 
 # Active Origami
@@ -65,14 +66,14 @@ parent: Research and Notes
 	- International Meetings of Origami Science, Mathematics, and Education (OSME)
 	- Journal of Mechanisms and Robotics
 
-#### 1.1 Active Materials
+### 1.1 Active Materials
 
 - active materials are those that convert various forms of energy (thermal, chemical, electromagnetic) into mechanical work
 - Active materials that provide mechanical response under thermal stimulus include **shape memory alloys (SMAs) and shape memory polymers (SMPs)**
 	- **SMAs** are metallic alloys that undergo solid-to-solid phase transformations induced by temperature and stress changes and during which they can recover seemingly permanent strains. Usually possess the highest actuation energy density, which is the product of the actuation stress and the actuation strain, among all active materials
 	- **SMPs** possess the ability to recover extensions up to ≈100%. Additionally, they are inexpensive and lightweight. They typically have stiffness and strength values two to three orders of magnitude lower than their metal counterparts
 
-#### 1.2 Origami Design and it's simulation and visualization
+### 1.2 Origami Design and it's simulation and visualization
 
 - A method for determining the geometry and pattern of creased folds associated with a planar sheet that can fold towards a goal polyhedral surface is termed unfolding polyhedra
 - A kinematic model for origami structures must consider 
@@ -83,3 +84,23 @@ parent: Research and Notes
 ---
 
 ### Chapter 2: Kinematics of Origami Structures with Creased Folds
+
+- The only non-rigid body deformations of an origami sheet are achieved by rotating adjacent faces relative to one another along their connecting creased fold such that the sheet is not torn and does not self-intersect during such deformations. 
+- Thus, the configuration of an origami sheet is fully described by the only kinematic variable associated with a creased fold, which describes the relative rotation between the two faces that are joined by such a fold and is denoted as fold angle. The fold angle θˆ i(t) is defined as π radians less the dihedral angle between the positive sides of the two faces joined by the ith creased fold.
+
+{: .note } 
+To look more into this topic
+
+---
+
+### Chapter 3: Unfolding Polyhedra Method for the Design of Origami Structures with Creased Folds
+
+- This chapter addresses the method of unfolding polyhedra. The goal shape is represented in this method as a three-dimensional polygonal mesh, termed as the goal mesh. The objective in unfolding polyhedra is to find the shape and fold pattern of a planar sheet that can be folded towards a configuration that matches the goal mesh.
+- The process of creating an origami structure with desired characteristics (i.e., a desired shape) is known as origami design
+
+![unfolding polyhedra](https://i.imgur.com/NAAyDOj.png)
+
+- A method for determining the shape and fold pattern of a planar sheet that can be folded towards a targeted polyhedral surface is known as unfolding polyhedra
+- Usually, the unfolding is required to be a single sheet that does not have any overlaps and the cuts are required to be made exclusively on edges of the goal polyhedral surface. An unfolding that satisfies these characteristics is called a net
+- unfolding polyhedra has found important industrial applications. Such applications include sheet metal folding as an efficient process for manufacturing of three-dimensional objects
+
