@@ -107,3 +107,41 @@ Mind scraping over the internet for information.
 ![shape changing](http://www.technocrazed.com/wp-content/uploads/2014/06/compress-the-robot-to-change-its-shape.gif)
 
 - The issue with the contemporary robots is that the robot is either speedy or powerful but not both. This new robot comes with both these characteristics. It can decide how much it needs to squeeze or expand to have required speed and torque.
+
+---
+
+# Structural, Deployable Folds - Design and Simulation of Biological Inspired Folded Structures
+
+## Metadata
+
+- Title: Structural, Deployable Folds - Design and Simulation of Biological Inspired Folded Structures
+- Authors: Daniel Baerlecken, Russell Gentry, Matthew Swarts and Nixon Wonoto
+- Software: Grasshopper with rhinoceros
+
+## Highlights & Notes
+
+### Introduction
+
+- This paper presents a concept of folding as a form generator for a structural system that allows the ability to deploy large spanning structures
+- The paper not only reviews a type of biological inspired folding – with special focus on kinetic and structural properties - but also discusses the problems of producing these forms at the building scale
+- The research first presents a catalogue on leaves, petals and insect wings, documenting their different tectonic and kinetic systems, which is used to investigate and develop a new range of physical systems – generated on the basis of biological analogies
+
+### Approach
+
+-  the research started with the selective modeling of folding mechanisms in nature as found in the different leaf species, such as maple leaves and hornbeam leaves, as well as insect’s wings, segments of earwigs, grasshoppers, crickets, and praying mantis 
+- Saussurean approach
+- The material used for the initial structural modeling was PETG (glycol-modified polyethylene terephthalate): a thermoform able, flexible material. Stiffened fabric structures were considered as an alternative
+- Structures suitable for human habitation are likely to be two orders of magnitude larger than wing scale, leave scale or paper scale, and part of the scaling problem concerns the thickness of the material. If the material thickness (t) increases linearly with the other dimensions, then the flexural rigidity of the edges will increase as t3.The subsequent ability to fold the large-scale sheet will be dramatically reduced, if not eliminated.
+
+![leaf pattern](https://i.imgur.com/JTGTd8p.png)
+
+- In the hornbeam leaf study, the Miura-ori pattern is naturally occurring, which has been previously applied to large solar panel arrays for space satellites by Japanese astrophysicist Koryo Miura.A folded Miura-ori fold can be packed into a very compact area and its thickness is only restricted by the thickness of the folded material.The fold can also be unpacked in just one motion by pulling on opposite ends of the folded material, and likewise folded again by pushing the two ends back together
+- Conceptually, the kinematic mechanisms of action origami overlap with those of bar and strut tensegrity systems. Miura and Notori proposed the use of a quadrilateral 4-fold mesh for deploying solar arrays in space and this pattern has come to be described as Miura-ori
+
+## Geometric principles of the Miura Ori pattern
+
+### Material Selection for Miura-Ori
+
+- The flexibility demonstrated in paper-scale origami is generally not present in load-bearing structural materials at full-scale, due to the fact that flexural stiffness of plates increases with the cube of the plate thickness. Therefore, it is difficult to conceive of bending large-scale materials in the way that paper is folded. In this research, we focus on the use of modified polyethylene terephthalate (PETG) as a substitute for paper.
+- PETG was selected as a material due to its high deformation capacity with the idea that the hinge could be made inherent in the material as opposed to as a kinematic add on
+
