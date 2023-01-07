@@ -1,7 +1,8 @@
 # BioInspired-Perception-and-Robotics
 Everything for my major project
 
-- Path planning alogrithms using matlab and python
+- We are aiming to build a hardware prototype for a robotic system inspired from nature.
+- Path planning algorithms using matlab and python
 
 
 >**Warning**
