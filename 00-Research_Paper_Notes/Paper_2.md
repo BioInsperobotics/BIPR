@@ -47,7 +47,7 @@ Youtube Links to refer 🔽
 - Biological creatures can successfully locomote in unstructured environments using multiple modes of locomotion through actively changing their morphology
 - we propose a new method for achieving multimodal locomotion by reconfiguring a robot’s leg for different functions (e.g., walking, crawling, inching, etc.) using the same mechanical structure
 
-![Figure 1](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Paper-2/fig1.png)
+![Figure 1](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Papers/paper1_fig1.png)
 
 - 4 legs:
     - each leg made of four origami inspired modules that can generate programmable shapes and motions
@@ -65,7 +65,7 @@ diagonal links
 
 - An SVJ is presented in our recent work, but we briefly describe its working principle here. It is made from a thermoplastic material (e.g., PLA) embedded inside an elastic tube
 
-![Figure 2](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Paper-2/fig2.png)
+![Figure 2](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Papers/paper1_fig2.png)
 
 - A resistance wire wrapped outside the tube can heat up the material through Joule heating
 - With such a design, an SVJ has two characteristics: variable stiffness and shape morphing. For variable stiffness, its bending stiffness can be controlled based on its temperature: once the SVJ’s temperature exceeds PLA’s glass transition temperature, the SVJ becomes soft, making the SVJ bendable
@@ -88,7 +88,7 @@ tendon will collapse the top module
 -  The diagonal link is made from thermoplastic PLA filament (diameter 1.75 mm, Overture). An elastic silicone tube (BKVP51135-71.5; Vanguard) is placed in the middle. A resistance wire with a resistance of 3.1 Ω (shown in red in
 Fig. 3) is wrapped around the silicone tube
 
-![Figure 3](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Paper-2/fig3.png)
+![Figure 3](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Papers/paper1_fig3.png)
 
 - Using the resistance wire, it takes 20 s to heat up the SVJ to soften it with a voltage of 3 V. This heating process would consume an energy of 58 J.
 - The plates are 3-D printed with PLA with two protrusions at each vertex. Each diagonal link is connected to the protrusions of both the top and bottom plates via silicone rubber tubes (LDVP51135-11; Vanguard), which serve as spherical joints
@@ -108,7 +108,7 @@ Fig. 3) is wrapped around the silicone tube
 - An Arduino microboard is used as the microcontroller to control the motion of the five motors 
 - Positions of the motors are fed back to the Arduino through a magnetic encoder (4760; Pololu) attached to the rear shaft of each motor. PID control is used to ensure a constant speed of the motor, with the help of the position feedback.
 
-![Figure 4](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Paper-2/fig4.png)
+![Figure 4](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/Papers/paper1_fig4.png)
 
 ### Discussion
 - Such adaptive robots will be suitable for search-and-rescue operations in disaster areas. In such unstructured environments, an adaptive robot can potentially adjust its body heights for walking with different speeds, shrink its body to walk through narrow spaces, reconfigure its legs’ orientation to crawl below a crack, inch inside a pipe, or reconfigure two legs as arms to deliver medicals to survivors.
