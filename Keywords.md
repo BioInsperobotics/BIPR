@@ -4,6 +4,7 @@
 4. Robotics
 5. Reconfigurable Modular Robots
 6. deployable space structure
+7. Tethered Actuation
 
 ## Something to look out for
 
