@@ -7,7 +7,28 @@ last_modified_date: 2022-11-19 17:15 IST
 ---
 
 # Rapidly Exploring Random Trees
+{: .no_toc}
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Working of Algorithm
+1. A random node placed in the state space
+2. Connect it to the nearest node
+3. We don’t want to place it too far away
+    - We specify a min distance that the new node can be away from the nearest node
+4. We do obtain a viable path albeit not an optimal arc since the method tends to zig zag
+5. It can work really well for situations where you’re looking for valid path and not necessarily the shortest distance as long as the start and goal nodes are reachable
+
+![RRT_custom_maze](https://i.imgur.com/tfu2jep.png)
+
+
+## MATLAB Code
 ```matlab
 % Example displays how to use the RRT algo to plan a path for a vehicle
 % through a known map
@@ -100,3 +121,7 @@ end
 ```
 
 ![RRT animation gif](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/03-RRT_animation.gif)
+
+## References
+
+1. [Tim Chinenov - Path Planning - Medium Blog](https://theclassytim.medium.com/robotic-path-planning-rrt-and-rrt-212319121378)
