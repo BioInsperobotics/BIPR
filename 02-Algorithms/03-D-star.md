@@ -37,4 +37,3 @@ Like Dijkstra's algorithm and A*, D* maintains a list of nodes to be evaluated, 
 
 ### Introduction
 - The problem of path planning can be stated as finding a sequence of state transitions through a graph from some initial state to a goal state, or determining that no such sequence exists
-- 
