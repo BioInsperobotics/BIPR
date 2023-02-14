@@ -6,8 +6,35 @@ parent: Algorithms
 ---
 
 # Distance Transform
+{: .no_toc}
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Working of Algorithm
 <!-- [Code](){: .btn} -->
+In this method, following should be carefully noted
+1. Goal destination is labelled with a distance value 0
+2. All other locations are labeled with high values
+3. Algo begins at the destination and each iteration visits all locations adjacent to locations visited in the previous iteration.
+4. Distance value for site 'i' adjacent to previously visited site 'j' is updated by
+
+```
+if map(i) occupied
+    d(i) = inf
+else
+    d(i) = min[d(i), d(j)+c(i,j)]
+```
+
+where c(i,j) is the cost or distance with moving from site 'i' to site 'j'
+
+
+## Matlab Code
 
 ```matlab
 % loading the house  
@@ -86,3 +113,6 @@ dx.plot3d(p)
 
 ![Distance Transform 1 figure](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/02-distance_transform.png)
 ![Distance Transform 1 in 3d figure](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/02-distance_transform-3d.png)
+
+## References
+1. [Vladimir Tucakov - UBC](https://www.cs.ubc.ca/labs/lci/robots/papers/icra97/node9.html#:~:text=The%20distance%20transform%20expands%20around,until%20d%20%3D%200%20is%20reached.)
