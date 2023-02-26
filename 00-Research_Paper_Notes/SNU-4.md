@@ -70,7 +70,7 @@ Using soft materials for a variable-diameter wheel accompanies two advantages—
 
 - The control interface was built with a commercial WIFI camera module and an Arduino Nano controller. The WIFI camera module (P5206-2; HanJin Data) can be connected with a smartphone application (offered by HanJin Data) via WIFI, so the user can see real-time video and also send a command. 
 
-snumain-a
+![electronics](https://i.imgur.com/MLw6KCQ.png)
 
 - The WIFI camera module provides user commands via UART communication using a preset data protocol. An Arduino Nano was used for the main control unit. Arduino Nano interprets user commands from the WIFI camera module and combines them with an encoder signal to control the motors
 
@@ -79,7 +79,7 @@ snumain-a
 
 - A PET film (100 lm; Kolami) with a thermal adhesive on one side was chosen for the facets, and a plain weave mesh fabric was used for the folding part.
 
-snumain-b
+![fold lines](https://i.imgur.com/G1twaf4.png)
 
 - Finally, a rubber band is wrapped around the wheel in the circumferential direction to apply restoring force after folding
 - All structural components of the robot were fabricated with a 3D printer (Objet 260; Stratasys Ltd.). The communication module, cooling fan, and battery for the controller were placed on the head side, and the main controller and battery for the motors were placed on the carriage tail. 
