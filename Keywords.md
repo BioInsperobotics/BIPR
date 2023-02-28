@@ -10,3 +10,7 @@
 
 - Fukuda's cellular robots
 - Pneumatic Actuation
+
+## Ideas
+
+- Linear Actuator 3d printed
