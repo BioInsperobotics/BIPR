@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Paper-2
+title: Reconfigurable Robot | SMA shape morphing
 nav_order: 4
 parent: Research and Notes
 ---
