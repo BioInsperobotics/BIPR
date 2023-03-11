@@ -134,7 +134,11 @@ compress_html:
   comments: all
   endings: all
   startings: []
-  blanklines: false
+  blanklines: true
   profile: false
   # ignore:
   #   envs: all
+
+
+# LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
+latex: katex
