@@ -14,3 +14,4 @@
 ## Ideas
 
 - Linear Actuator 3d printed
+- dual rack and pinion mechanism - to study the characteristics
