@@ -17,8 +17,8 @@ last_modified_date: 2023-03-14 19:50 IST
 | --- | --- | --- |
 | Individual weight of the tire with Kapton and Paper | `tbf` | 2*`tbf` |
 | Weight of the tire system as whole | 20 gm | Includes the shaft of the wheel for actuation + wheel hub + mounts + etc |
-| Compressed Origami fold or Expanded shaft | $$90 mm \pm 10 mm$$ | `at-im` |
-| Expanded Origami fold or Compressed shaft | $$55 mm \pm 5 mm$$ | `at-im` |
+| Expanded Origami fold or Compressed shaft | Diameter: $$90 mm \pm 10 mm$$ <br> Distance b/w ends: $$40 mm \pm 10 mm$$ | ![Imgur](https://i.imgur.com/i0BIKtY.jpg) |
+| Compressed Origami fold or Expanded shaft | Diameter: $$55 mm \pm 5 mm$$ <br> Distance b/w ends: $$70 mm \pm 10 mm$$ | ![Imgur](https://i.imgur.com/Wh93SG1.jpg) |
 | Expected Pitch Circle Diameter (PCD) | 32 mm |  |
 
 ## Calculations
