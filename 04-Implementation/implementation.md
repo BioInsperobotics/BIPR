@@ -16,3 +16,7 @@ The following would display the work we have done so far.
 - We have decided to go forth with dual level rack and gear mechanism for the actuation part of the origami inspired wheel.
 - To focus on the wheel hub part 
 	- Made of acrylic plate layered with plastic to support the triangular surfaces - should be hard enough to bend the surface so as to get a proper compression of the wheel.
+- The figure below displays the general pattern for the "Magic Air Ball Pattern" that we will be going to use for now
+
+![Foldline for Magic Air Ball Pattern](https://i.imgur.com/OhjFUVu.png)
+
