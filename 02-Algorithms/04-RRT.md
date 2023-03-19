@@ -120,7 +120,7 @@ end
 
 ```
 
-![RRT animation gif](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/03-RRT_animation.gif)
+![RRT animation gif](https://i.imgur.com/usymAzq.gifv)
 
 ## References
 

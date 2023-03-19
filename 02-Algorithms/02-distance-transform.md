@@ -111,8 +111,8 @@ figure;
 dx.plot3d(p)
 ```
 
-![Distance Transform 1 figure](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/02-distance_transform.png)
-![Distance Transform 1 in 3d figure](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/02-distance_transform-3d.png)
+![Distance Transform 1 figure](https://i.imgur.com/VMzO7Wh.png)
+![Distance Transform 1 in 3d figure](https://i.imgur.com/WHwAcPi.png)
 
 ## References
 1. [Vladimir Tucakov - UBC](https://www.cs.ubc.ca/labs/lci/robots/papers/icra97/node9.html#:~:text=The%20distance%20transform%20expands%20around,until%20d%20%3D%200%20is%20reached.)

@@ -44,4 +44,4 @@ title({'Map of the environment','Pose graph for initial 70 scans'})
 close(myVideo)
 ```
 
-![SLAM animation gif](https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/algorithm/04-SLAM_animation.gif)
+![SLAM animation gif](https://i.imgur.com/EWGQZGP.gifv)
