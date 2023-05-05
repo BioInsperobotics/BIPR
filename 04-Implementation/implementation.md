@@ -10,15 +10,12 @@ permalink: /04-Implementation
 # Our Implementation so Far
 {: .no_toc}
 
-The following would display the work we have done so far. 
+This section aims to display the work we have done so far. 
 {: .fs-5 .fw-300 }
 
-- We have decided to go forth with dual level rack and gear mechanism for the actuation part of the origami inspired wheel.
-- To focus on the wheel hub part 
-	- Made of acrylic plate layered with plastic to support the triangular surfaces - should be hard enough to bend the surface so as to get a proper compression of the wheel.
-- The figure below displays the general pattern for the "Magic Air Ball Pattern" that we will be going to use for now
 
-![Foldline for Magic Air Ball Pattern](https://i.imgur.com/OhjFUVu.png)
+
+<a href="https://imgur.com/eCsfCKx"><img src="https://i.imgur.com/eCsfCKx.png" /></a>
 
 | Software Required for Robot Sim | Comment |
 | --- | --- |
@@ -26,7 +23,7 @@ The following would display the work we have done so far.
 | V-REP | https://hackaday.com/2016/10/09/simulate-your-robot-before-you-build-it/ |
 
 - https://parametrichouse.com/robotic-origami-worms/ - course present 
-- 
+
 | For Origami | Comment | LINK |
 | --- | --- | --- |
 | Rhinoceros + Grasshopper | 3d CAD + parametric design | |
