@@ -20,3 +20,15 @@ The following would display the work we have done so far.
 
 ![Foldline for Magic Air Ball Pattern](https://i.imgur.com/OhjFUVu.png)
 
+| Software Required for Robot Sim | Comment |
+| --- | --- |
+| [Origami Robot Generator: Design to Simulation](https://uclalemur.com/blog/new-capabilities-of-origami-robot-generator-design-to-simulation-roco-backend) | UCLA Lemur: ROCO |
+| V-REP | https://hackaday.com/2016/10/09/simulate-your-robot-before-you-build-it/ |
+
+- https://parametrichouse.com/robotic-origami-worms/ - course present 
+- 
+| For Origami | Comment | LINK |
+| --- | --- | --- |
+| Rhinoceros + Grasshopper | 3d CAD + parametric design | |
+| Oripa || |
+| Freeform || |
