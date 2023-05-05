@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 description: Documentation for Bioinspired robotics and perception project
 permalink: /
-last_modified_date: 2022-11-12 10:32 IST
+last_modified_date: 2023-05-05 16:28 IST
 ---
 
 # BIPR aka BioInspired Perception and Robotics
@@ -21,9 +21,9 @@ The following documentation site has been built for our major project in order t
 
 Project Implemented by:
 
-| Swarup Tripathy | Mayur Singh Jamwal |
+| Swarup Tripathy | Yatharth Agarwal |
 | --- | --- |
-| <img src="https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/us/swarup.png"> | <img src="https://raw.githubusercontent.com/BioInsperobotics/BIPR/main/assets/images/us/mayur.png"> |
+| <a href="https://github.com/Curovearth"><img src="https://avatars.githubusercontent.com/u/64013307?v=4"/></a> | <a href="https://github.com/yatharthagr7"><img src="https://avatars.githubusercontent.com/u/72257400?v=4"/></a> |
 
 
 
