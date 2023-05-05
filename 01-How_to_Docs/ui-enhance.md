@@ -72,3 +72,46 @@ Deprecated
 [Link button](http://example.com/){: .btn .btn-outline }
 ```
 
+## Callouts
+
+It should be noted that the colors for the callouts can be changed from the file named as <a href="https://github.com/BioInsperobotics/BIPR/blob/main/_config.yml">_config.yml</a>
+
+{: .warning }
+Slow Down! Smiles Ahead.
+
+```
+{: .warning }
+Slow Down! Smiles Ahead.
+```
+
+{: .highlight }
+Sometimes just take a pause to enjoy the little moments.
+
+```
+{: .highlight }
+Sometimes just take a pause to enjoy the little moments.
+```
+
+{: .important }
+You smile is Amazing! Keep Smiling.
+
+```
+{: .important }
+You smile is Amazing! Keep Smiling.
+```
+
+{: .new }
+New Perspective, New beginning.
+
+```
+{: .new }
+New Perspective, New beginning.
+```
+
+{: .note }
+All I long for is, everything.
+
+```
+{: .note }
+All I long for is, everything.
+```
