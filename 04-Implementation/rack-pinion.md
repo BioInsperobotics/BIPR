@@ -15,12 +15,21 @@ last_modified_date: 2023-03-08 19:37 IST
 1. TOC
 {:toc}
 
-### Assumption
+### Why Rack and Pinion?
 
-- Load or weight of the origami inspired Wheel 
-	- Weight of the wheel = 10 gm - 20gm (approximated and aimed)
-	- Origami Pattern = Magic Air Ball pattern
-		- Kapton Sheet is layered both sides on a normal sheet of paper.
+| **Application Consideration** | **Chain Drives** | **Rack/Gear & Pinion** | **Roller Pinion/Rack** | **Lead Screws** | **Ball Screws** | **Linear Motors** |
+| **Accuracy** | Low | Low-High | High | Low | Low-High | High |
+| **Backlash/Vibration** | Consider | Consider | Near Zero | Consider | Consider | Near Zero |
+| **Acceleration** | Low | High | High | Low | Medium | High |
+| **Speed** | Low | Medium | High | Low | Medium | High |
+| **Load Capacity** | Medium | High | High | Low | High | Low |
+| **Length** | Shorter | Long | Long | Shorter | Shorter | Moderate |
+| **High Wear and Short Life** | Consider | Consider | Long Life | Consider | Consider | Long Life |
+| **Maintenance** | Consider | Consider | Little to None | Consider | Consider | Little to None |
+| **Noise Level** | High | Medium | Low | High | Medium | Low |
+| **Dust and Dirt emissions** | High | Moderate | Low to None | Moderate | Moderate | Low to None |
+
+Rack and Pinion was observed to be the best estimate while taking 3D Printing into consideration.
 
 ---
 
@@ -84,8 +93,6 @@ d<sub>f</sub> = d - 2.5m
 ## Points of Attention for the selection of Rack and Pinion
 
 Keep the following in mind
-- Following the mechanical process of designing
-	- We 
 - A pinion of about 20 or 23 teeth is mathematically optimum in terms of tangential force and system backlash. But there's no hard and fast rule that you need to consider 20 or 23 teeth always, it entirely depends with respect to your application.
 > A smaller pinion can transmit lower torques and has a higher wear.
 
@@ -138,4 +145,3 @@ Generally 20<sup>o</sup> is often taken as the pressure angle for involute gears
 - [Testbook.com - Min number of teeth](https://testbook.com/question-answer/for-standard-addendum-the-minimum-number-of-teeth--605622da6dd2357bf9dddbc0)
 - [Testbook.com - Value of Pressure Angle generally used](https://testbook.com/question-answer/what-is-the-value-of-pressure-angle-generally-used--60995233bd8529fb8a15492b#:~:text=Generally%2C%2020%C2%B0%20of%20pressure%20angle%20is%20used%20for%20involute%20gears.&text=As%20the%20pressure%20angle%20increases,and%20increases%20load%2Dcarrying%20capacity.)
 - [KHK Gear - Basic Gear Terminology and Calculation](https://khkgears.net/new/gear_knowledge/abcs_of_gears-b/basic_gear_terminology_calculation.html)
-- 
