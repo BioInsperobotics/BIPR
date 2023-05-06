@@ -76,3 +76,10 @@ $$sin(\frac{\pi}{8})=\frac{L1/2}{R}$$
 $$R = \frac{L1}{sin(\frac{\pi}{8})}$$
 
 In summary, the calculations dealt with two design constants r and b, and three variables $\alpha$, $\beta$ and $\gamma$ which are subjected to change for the wheel transformation to take place.
+
+## MATLAB 
+
+We used MATLAB to solve the geometrical equations to obtain a range of values
+
+{: .warning }
+Yet to be updated
