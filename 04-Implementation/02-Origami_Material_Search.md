@@ -9,6 +9,8 @@ last_modified_date: 2023-03-22 19:51 IST
 # Origami Material Search
 {: .no_toc}
 
+<a href="https://imgur.com/06DqloA"><img src="https://i.imgur.com/06DqloA.png" title="source: imgur.com" /></a>
+
 ## Table of contents
 {: .no_toc .text-delta }
 
