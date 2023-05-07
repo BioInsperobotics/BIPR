@@ -43,7 +43,7 @@ Following are the number of objectives that this project aims to achieve:
 
 | | |
 | --- | --- |
-| The flowchart displays a general working of the control aspect of our project where Visual Feedback is ensured to turn the knob of the potentiometer resulting in the change in direction of the servo motor. <br> Apart from this, handheld transformation also took place wherein we pulled the rack while driving on the pinion to provide sufficient torque for the transformation to take place and it was noted that the system would actually work when chosen with the right motor providing more than sufficient torque. | <img width=700px src="https://i.imgur.com/igDuUow.png" /> |
+| The flowchart displays a general working of the control aspect of our project where Visual Feedback is ensured to turn the knob of the potentiometer resulting in the change in direction of the servo motor.  Apart from this, handheld transformation also took place wherein we pulled the rack while driving on the pinion to provide sufficient torque for the transformation to take place and it was noted that the system would actually work when chosen with the right motor providing more than sufficient torque. | <img width=1700 src="https://i.imgur.com/igDuUow.png" /> |
 
 | <img src="https://i.imgur.com/0ScsV9a.png"  /> | <img src="https://i.imgur.com/6NfUJi4.png" /> |
 | --- | --- |
