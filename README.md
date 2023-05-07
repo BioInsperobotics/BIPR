@@ -41,8 +41,36 @@ Following are the number of objectives that this project aims to achieve:
 
 ## Control and Hardware Implementation
 
-| The flowchart displays a general working of the control aspect of our project where Visual Feedback is ensured to turn the knob of the potentiometer resulting in the change in direction of the servo motor. <br> Apart from this, handheld transformation also took place wherein we pulled the rack while driving on the pinion to provide sufficient torque for the transformation to take place and it was noted that the system would actually work when chosen with the right motor providing more than sufficient torque. | <img height=500px width=400px src="https://i.imgur.com/igDuUow.png" /> |
+| | |
+| --- | --- |
+| The flowchart displays a general working of the control aspect of our project where Visual Feedback is ensured to turn the knob of the potentiometer resulting in the change in direction of the servo motor. <br> Apart from this, handheld transformation also took place wherein we pulled the rack while driving on the pinion to provide sufficient torque for the transformation to take place and it was noted that the system would actually work when chosen with the right motor providing more than sufficient torque. | <img width=700px src="https://i.imgur.com/igDuUow.png" /> |
+
+| <img src="https://i.imgur.com/0ScsV9a.png"  /> | <img src="https://i.imgur.com/6NfUJi4.png" /> |
 | --- | --- |
 
+## Hardware Testing
 
+<img src="https://i.imgur.com/wH3oCWY.png"  />
+
+| <img src="https://i.imgur.com/dU07V4E.png"/> | <img src="https://i.imgur.com/hpe4EWi.png"  /> |
+| --- | --- |
+| Actuation for Expanded State | Actuation for Compressed State |
+
+Pinion movement is observed which is responsible for driving the rack. It is ensured that the rack traverses along the PCD of the pinion for avoiding any slippage and backslash.
+
+Micro servo motor SG90 having a torque specification as 1.2Kg-cm is clearly insufficient to transform the origami wheel. Force distribution and analysis w.r.t origami wheel was not implemented.Current literature suggests performing compression tests using load cell.
+
+## Observations
+
+| <img src="https://i.imgur.com/ZjrqH6r.png"  /> | <img src="https://i.imgur.com/simyCbz.png" /> |
+| --- | --- |
+| <img src="https://i.imgur.com/BGNc8vB.png" /> | <img src="https://i.imgur.com/5LHHQYp.png" /> |
+
+## Testing Videos
+
+https://user-images.githubusercontent.com/64013307/236678199-af207a04-1eba-4b2a-b4bb-1677a445d48b.mp4
+
+### Failed Attempt
+
+https://user-images.githubusercontent.com/64013307/236678249-2e562ce9-5fc5-4141-82cb-b55551027eac.mp4
 
