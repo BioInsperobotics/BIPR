@@ -6,6 +6,15 @@ parent: Implementation
 last_modified_date: 2023-05-06 08:57 IST 
 ---
 
+# Geometrical Analysis
+{: .no_toc}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 The modeling of the structure begins by making two assumptions. First, the structure is supposed to have a symmetrical shape because if the forces are applied this structure becomes asymmetrical, but for the simplicity of calculations, assuming that the force effect is negligible. Second, the motion of folding occurs only in the folding lines and the facets are assumed to be always straight.
 
 <a href="https://imgur.com/kRT4rS1"><img src="https://i.imgur.com/kRT4rS1.png" title="waterbomb_section_planes" /></a>

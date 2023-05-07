@@ -6,6 +6,8 @@ parent: Implementation
 last_modified_date: 2023-05-05 18:15 IST 
 ---
 
+# Software and Hardware Used | Specs
+
 This chapter is responsible for presenting the Software and Hardware information for the project completion process. The information may differ depending on the changes presented by the developer at the time of year. Furthermore, the specifications which are mentioned here are simple to install from their primary sources.
 
 ---

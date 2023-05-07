@@ -7,8 +7,16 @@ last_modified_date: 2023-05-05 08:43 IST
 ---
 
 # Origami Pattern
+{: .no_toc}
+
 
 The art of paper folding is often associated with Japanese culture. The goal of paper folding has always been to convert 2D sheets into our desired 3D stable configurations. These structures can be simply classified as Rigid Origami and Non-Rigid Origami. 
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Rigid Origami 
 
