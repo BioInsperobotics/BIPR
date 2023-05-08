@@ -75,3 +75,6 @@ https://user-images.githubusercontent.com/64013307/236678199-af207a04-1eba-4b2a-
 
 https://user-images.githubusercontent.com/64013307/236678249-2e562ce9-5fc5-4141-82cb-b55551027eac.mp4
 
+## License 🔐
+
+Refer the license for this project here: [LICENSE.md](https://github.com/BioInsperobotics/BIPR/blob/main/LICENSE)
